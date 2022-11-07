@@ -1,4 +1,5 @@
 import React from 'react'
+import WorkImg from '../assets/projects/workImg.jpeg'
 
 const Work = () => {
   return (
@@ -8,24 +9,26 @@ const Work = () => {
                 <p className='text-4xl font-bold inline border-b-4 text-white border-gray-600'>Work</p>
                 <p className='py-6'>Check out my work.</p>
             </div>
-        </div>
 
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-            <div className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
 
-                {/* hover effects */}
-                <div>
-                    <span>
+            <div style={{backgroundImage: `url(${WorkImg})`}}
+             className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                <div className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
 
-                    </span>
+                    {/* hover effects */}
                     <div>
-                        <a href="">
-                            <button></button>
-                        </a>
-                        <a href="">
-                            <button></button>
-                        </a>
+                        <span>
 
+                        </span>
+                        <div>
+                            <a href="">
+                                <button></button>
+                            </a>
+                            <a href="">
+                                <button></button>
+                            </a>
+
+                        </div>
                     </div>
                 </div>
             </div>
