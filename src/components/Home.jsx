@@ -1,10 +1,10 @@
 import React from 'react'
 import {Link} from 'react-scroll'
-
+import background from '../assets/home.webp'
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-[#0a192f]'>
+    <div name='home' className='w-full h-screen' style={{ background:`url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center'}}>
 
         {/* container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
@@ -12,7 +12,7 @@ const Home = () => {
               Daniel Valean</h1>
         
             <div>
-                <button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-gray-600 hover: border-gray-600'>
+                <button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#b1a296] hover:border-[#b1a296]'>
                 <Link to="work" smooth={true} offset={50} duration={500}>View Work</Link></button>
             </div>
         </div>

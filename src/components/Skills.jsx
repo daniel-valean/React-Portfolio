@@ -10,11 +10,11 @@ import Mongo from '../assets/mongo.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[#0a192f] text-white'>
+    <div name='skills' className='w-full h-screen bg-[#3b5382c3] text-white'>
     {/* container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
-                <p className='text-5xl font-bold inline border-b-4 border-gray-600'>Skills</p>
+                <p className='text-5xl font-bold inline border-b-4 border-[#282421a9]'>Skills</p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
             <div className='hover:scale-110 duration-500'>
