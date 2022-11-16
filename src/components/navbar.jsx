@@ -10,7 +10,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
 return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#87ab9500] text-white' >
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#5c758900] text-white' >
         <div><Link to="home" smooth={true} offset={50} duration={500}>
             <img src={Logo} alt="Logo" style={{width: '190px'}} /></Link>
         </div>
@@ -100,7 +100,7 @@ return (
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red bg-[#b1a296ab]'>
                         <a className='flex justify-between items-center w-full text-white' 
-                        href='/'>
+                        href='https://docs.google.com/document/d/e/2PACX-1vRGPTBjax0yGoH6Lis-9juJ2kxLgWZGzTlKNJm1VVhRNoCGMaLm1R5dOXnOzKLV2D-RS7IA_28R8bWZ/pub' target="_blank" rel='noreferrer'>
                             Resume <BsFillPersonLinesFill size={30}/>
                         </a>
                     </li>
