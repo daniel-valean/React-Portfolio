@@ -1,5 +1,4 @@
 import React from 'react'
-import WorkImg from '../assets/projects/workImg.jpeg'
 import wingman from '../assets/projects/wingman.png'
 
 const Work = () => {
@@ -33,7 +32,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${WorkImg})`}}
+                <div style={{backgroundImage: `url(${wingman})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* hover effects */}
@@ -53,7 +52,7 @@ const Work = () => {
                     </div>
                 </div>
 {/* project item */}
-<div style={{backgroundImage: `url(${WorkImg})`}}
+<div style={{backgroundImage: `url(${wingman})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* hover effects */}
@@ -72,7 +71,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${WorkImg})`}}
+                <div style={{backgroundImage: `url(${wingman})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* hover effects */}
@@ -92,7 +91,7 @@ const Work = () => {
                     </div>
                 </div>
 {/* project item */}
-<div style={{backgroundImage: `url(${WorkImg})`}}
+<div style={{backgroundImage: `url(${wingman})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* hover effects */}
@@ -111,7 +110,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${WorkImg})`}}
+                <div style={{backgroundImage: `url(${wingman})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* hover effects */}

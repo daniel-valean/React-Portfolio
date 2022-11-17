@@ -18,7 +18,7 @@ const Skills = () => {
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
             <div className='hover:scale-110 duration-500'>
-                    <img className='w-40 mx-auto' src={Html} alt="HTML icon" />
+                    <img className='w-40 mx-auto' src={Html} alt="HTML icon"/>
                     <p className='my-4'>HTML</p>
                 </div>
                 <div className='hover:scale-110 duration-500'>
