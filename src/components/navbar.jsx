@@ -89,7 +89,7 @@ return (
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#a55e32b8]'>
                         <a className='flex justify-between items-center w-full text-white' 
-                        href=''><Link to="Contact" smooth={true} offset={50} duration={500}>
+                        href='dannyvalean@gmail.com'><Link to="Contact" smooth={true} offset={50} duration={500}>
                             Email </Link><HiOutlineMail size={30}/>
                         </a>
                     </li>
