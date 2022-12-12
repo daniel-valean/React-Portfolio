@@ -1,5 +1,10 @@
 import React from 'react'
 import wingman from '../assets/projects/wingman.png'
+import bootcampfitness from '../assets/projects/bootcampfitness.png'
+import onlydevs from '../assets/projects/onlydevs.png'
+import passwordgen from '../assets/projects/passwordgen.png'
+import quiz from '../assets/projects/quiz.png'
+import workday from '../assets/projects/workday.png'
 
 const Work = () => {
   return (
@@ -13,7 +18,7 @@ const Work = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
 {/* project item */}
-                <div style={{backgroundImage: `url(${wingman})`}}
+                <div style={{backgroundImage: `url(${onlydevs})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* hover effects */}
@@ -22,10 +27,10 @@ const Work = () => {
                         React JS Application
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="https://daniel-valean.github.io/Wingman/" target='_blank'>
+                            <a href="https://the-only-devs.herokuapp.com/" target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="https://github.com/daniel-valean/Wingman" target='_blank'>
+                            <a href="https://github.com/daniel-valean/OnlyDevs" target='_blank' rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
 
@@ -41,10 +46,10 @@ const Work = () => {
                         React JS Application
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="">
+                            <a href="https://daniel-valean.github.io/Wingman/" target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="">
+                            <a href="https://github.com/daniel-valean/Wingman" target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
 
@@ -52,7 +57,7 @@ const Work = () => {
                     </div>
                 </div>
 {/* project item */}
-<div style={{backgroundImage: `url(${wingman})`}}
+<div style={{backgroundImage: `url(${bootcampfitness})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* hover effects */}
@@ -61,17 +66,17 @@ const Work = () => {
                         React JS Application
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="">
+                            <a href="https://blooming-forest-36438.herokuapp.com/login" target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="">
+                            <a href="https://github.com/daniel-valean/bootcamp-fitness" target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
 
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${wingman})`}}
+                <div style={{backgroundImage: `url(${passwordgen})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* hover effects */}
@@ -80,10 +85,10 @@ const Work = () => {
                         React JS Application
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="">
+                            <a href="https://daniel-valean.github.io/javascript-password-generator/" target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="">
+                            <a href="https://github.com/daniel-valean/javascript-password-generator" target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
 
@@ -91,7 +96,7 @@ const Work = () => {
                     </div>
                 </div>
 {/* project item */}
-<div style={{backgroundImage: `url(${wingman})`}}
+<div style={{backgroundImage: `url(${workday})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* hover effects */}
@@ -100,17 +105,17 @@ const Work = () => {
                         React JS Application
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="">
+                            <a href="https://daniel-valean.github.io/Work-Day-Scheduler/" target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="">
+                            <a href="https://github.com/daniel-valean/Work-Day-Scheduler" target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
 
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${wingman})`}}
+                <div style={{backgroundImage: `url(${quiz})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* hover effects */}
@@ -118,10 +123,10 @@ const Work = () => {
                         <span className='text-2xl font-bold text-white tracking-wider'>
                         React JS Application</span>
                         <div className='pt-8 text-center'>
-                            <a href="">
+                            <a href="https://daniel-valean.github.io/code-quiz-web-api/" target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="">
+                            <a href="https://github.com/daniel-valean/code-quiz-web-api" target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
 
