@@ -3,7 +3,7 @@ import wingman from '../assets/projects/wingman.png'
 import bootcampfitness from '../assets/projects/bootcampfitness.png'
 import onlydevs from '../assets/projects/onlydevs.png'
 import passwordgen from '../assets/projects/passwordgen.png'
-import quiz from '../assets/projects/quiz.png'
+import azexotic from '../assets/projects/azexotic.png'
 import workday from '../assets/projects/workday.png'
 
 const Work = () => {
@@ -115,7 +115,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${quiz})`}}
+                <div style={{backgroundImage: `url(${azexotic})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* hover effects */}
@@ -123,11 +123,8 @@ const Work = () => {
                         <span className='text-2xl font-bold text-white tracking-wider'>
                         React JS Application</span>
                         <div className='pt-8 text-center'>
-                            <a href="https://daniel-valean.github.io/code-quiz-web-api/" target='_blank' rel='noreferrer'>
+                            <a href="https://www.azexotictransport.com/" target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="https://github.com/daniel-valean/code-quiz-web-api" target='_blank' rel='noreferrer'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
 
                         </div>
