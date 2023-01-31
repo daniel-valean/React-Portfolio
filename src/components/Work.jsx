@@ -43,7 +43,7 @@ const Work = () => {
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                        React JS Application
+                        HTML/CSS w/ API Application
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="https://daniel-valean.github.io/Wingman/" target='_blank' rel='noreferrer'>
@@ -63,7 +63,7 @@ const Work = () => {
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                        React JS Application
+                        Nodejs/Expressjs Application
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="https://blooming-forest-36438.herokuapp.com/login" target='_blank' rel='noreferrer'>
@@ -102,7 +102,7 @@ const Work = () => {
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                        React JS Application
+                        JS Application
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="https://daniel-valean.github.io/Work-Day-Scheduler/" target='_blank' rel='noreferrer'>
