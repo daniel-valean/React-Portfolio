@@ -2,7 +2,7 @@ import React from 'react'
 import wingman from '../assets/projects/wingman.png'
 import bootcampfitness from '../assets/projects/bootcampfitness.png'
 import onlydevs from '../assets/projects/onlydevs.png'
-import passwordgen from '../assets/projects/passwordgen.png'
+import cityhouse from '../assets/projects/cityhouse.png'
 import azexotic from '../assets/projects/azexotic.png'
 import workday from '../assets/projects/workday.png'
 
@@ -76,7 +76,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${passwordgen})`}}
+                <div style={{backgroundImage: `url(${cityhouse})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* hover effects */}
@@ -85,10 +85,10 @@ const Work = () => {
                         React JS Application
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="https://daniel-valean.github.io/javascript-password-generator/" target='_blank' rel='noreferrer'>
+                            <a href="https://cityhousetn.com/" target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="https://github.com/daniel-valean/javascript-password-generator" target='_blank' rel='noreferrer'>
+                            <a href="https://github.com/daniel-valean/city-house-tn" target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
 
@@ -121,7 +121,7 @@ const Work = () => {
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                        React JS Application</span>
+                        Wordpress Application</span>
                         <div className='pt-8 text-center'>
                             <a href="https://www.azexotictransport.com/" target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
