@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div name='About' className='w-full h-screen bg-[#b1a296ab] text-white'>
+    <div name='About' className='w-full h-screen bg-white text-black'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className='max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8'>
                 <div className='sm:text-right pb-8 pl-4'>
@@ -11,11 +11,11 @@ const About = () => {
                 </div>
             </div>
               <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                <div className='sm:text-right text-4xl font-bold'>
+                <div className='sm:text-right text-3xl font-bold pt-14'>
                   <p>Hi I'm Daniel, nice to meet you.</p>
                 </div>
-                <div className='text-2xl'>
-                  <p>I'm a full-stack web developer with a focus on the MERN stack, but still exploring other technologies and frameworks that catch my interest. If you're looking for a developer to add to your team, I'd love to hear from you!</p>
+                <div className='text-1xl'>
+                  <p>Aspiring Full-Stack Developer skilled in assessing an organization’s needs and creating a remarkable web presence.  Committed to applying coding best practices in scripting languages and multimedia tools.  Adept at prioritizing tasks and working on several projects simultaneously. Experienced in troubleshooting and recommending solutions to mitigate risk. Consistently delivering exceptional work products. Efficiently communicating and collaborating with a creative team and stakeholders. </p>
                 </div>
             </div>
         </div>
